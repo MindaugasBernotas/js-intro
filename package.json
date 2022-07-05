@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "switch": "nodemon ./js/switch.js",
-
+    "func": "nodemon ./js/function.js",
     "loop": "nodemon ./js/loop-for.js",
     "boo": "nodemon ./js/boolean.js",
     "op": "nodemon ./js-mini-tasks/02-operations-with-variables.js",
