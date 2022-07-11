@@ -13,6 +13,7 @@
     "loop": "nodemon ./js/for.js",
     "boo": "nodemon ./js/boolean.js",
 
+    "funkcijos": "nodemon ./js-mini-tasks/05-functions.js",
     "forloop": "nodemon ./js-mini-tasks/04-Using-the-for-loop.js",
     "comp": "nodemon ./js-mini-tasks/03-comparison-and-logical-operators.js",
     "op": "nodemon ./js-mini-tasks/02-operations-with-variables.js",

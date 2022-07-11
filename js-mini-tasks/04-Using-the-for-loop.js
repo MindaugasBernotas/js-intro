@@ -73,13 +73,65 @@ for (i = textR.length - 1; i >= 0; i--) {
 // 0 - 11
 // 8 - 31
 // -18 - 18
+console.clear();
+// let dalyba3 = [];
+// let dalyba5 = [];
+// let dalyba7 = [];
+// let numb = 0;
+// for (let i = 1; i < 12; i++) {
+//   if (i % 3 === 0) {
+//     dalyba3.push(i);
+//   }
+//   if (i % 5 === 0) {
+//     dalyba5.push(i);
+//   }
+//   if (i % 7 === 0) {
+//     dalyba7.push(i);
+//   }
+// }
 
-let sum4 = 0;
-for (let i = -50; i < 50; i++) {
-  sum4 = +i;
+// console.log(dalyba3);
+// console.log(dalyba5);
+// console.log(dalyba7);
+// console.log(dalyba3.length);
+// console.log(dalyba5.length);
+// console.log(dalyba7.length);
+// console.log("/////////////////////////");
+
+function dalyba(start, end) {
+  let dalyba3 = [];
+  let dalyba5 = [];
+  let dalyba7 = [];
+
+  for (let i = start; i < end; i++) {
+    if (i % 3 === 0) {
+      dalyba3.push(i);
+    }
+    if (i % 5 === 0) {
+      dalyba5.push(i);
+    }
+    if (i % 7 === 0) {
+      dalyba7.push(i);
+    }
+  }
+  console.log(dalyba3);
+  console.log(dalyba5);
+  console.log(dalyba7);
+  console.log(
+    "Skaičių intervale tarp " +
+      start +
+      " ir " +
+      end +
+      ", besidalijančių be liekanos iš 3 yra: " +
+      dalyba3.length +
+      " vienetai."
+  );
+  console.log(dalyba5.length);
+  console.log(dalyba7.length);
 }
-console.log(sum4);
-
+dalyba(0, 11);
+dalyba(8, 31);
+dalyba(-18, 18);
 // rezultatą pateikti tokiu formatu:
 // Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra 4 vienetai.
 // Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai.
